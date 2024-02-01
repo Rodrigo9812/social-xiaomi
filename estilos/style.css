@@ -34,3 +34,15 @@ iframe#tela{
     height: 578px;
     border-radius: 25px;
 }
+section#botoes{
+    display: flex;
+    flex-direction: column;
+}
+section#botoes img{
+    width: 80px;
+}
+
+#container{
+    position: relative;
+    left: 40px;
+}
