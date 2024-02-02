@@ -39,11 +39,18 @@ section#botoes{
     flex-direction: column;
 }
 section#botoes img{
+    transition: 0.3s;
     width: 70px;
     position: relative;
     left: 50px;
     margin-bottom: 20px;
     border-radius: 50%;
     border: 2px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
+}
+#botoes img:hover{
+    box-shadow: 5px 5px 5px rgba(165, 233, 4, 0.582);
+    border: 5px solid white;
+    transform: translate(-10%, -10%);
 }
 
