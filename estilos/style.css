@@ -39,10 +39,11 @@ section#botoes{
     flex-direction: column;
 }
 section#botoes img{
-    width: 80px;
+    width: 70px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 
-#container{
-    position: relative;
-    left: 40px;
-}
