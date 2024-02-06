@@ -39,9 +39,8 @@ iframe#tela{
     border-radius: 25px;
 }
 section#botoes{
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
+    text-align: right;
+    margin-left: 10px;
 }
 section#botoes img{
     transition: 0.3s;
@@ -53,7 +52,7 @@ section#botoes img{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
 }
 #botoes img:hover{
-    box-shadow: 5px 5px 5px rgba(165, 233, 4, 0.582);
+    box-shadow: 1px 0px 14px 0px rgba(219, 255, 135, 0.582);
     border: 5px solid white;
     transform: translate(-10%, -10%);
 }
