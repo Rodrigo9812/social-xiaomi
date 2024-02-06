@@ -26,7 +26,7 @@ main{
 section#telefone{
     width: 291px;
     height: 607px;
-    background:url(../imagens/note8.png) no-repeat top center;
+    background:url(../imagens/note8.png) no-repeat;
     background-size: cover;
 }
 
